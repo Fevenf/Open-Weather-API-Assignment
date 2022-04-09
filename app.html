@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="open.css">
+</head>
+<body>
+   
+    <header class="header">
+      <h1>Weather App</h1></header>
+ 
+    <div class="container">
+      <div class="search">
+        <input type="text" id="req" class="searchbar" placeholder="Type zipcode"/>
+        <input type="submit" name="submit" class="submit" value="Search" onclick="zipCode()"/>
+      </div>
+      <div class="weather">
+        <h2>Weather in <span class="city"></span></h2>
+        <h1><span class="temp">123</span>°F</h1>
+        <img src="" alt="" class="icon" />
+        <div>Condition: <span class="currentcondition">cloudy</span></div>
+        <div>Date:<span class="date"></span></div>
+        <div>Humidity: <span class="humidity"></span></div>
+        <div>High:<span class="temp_high"></span>°F/Low:<span class="temp_low"></span>°F</div>
+      </div>
+    </div>
+
+    <script src="weather.js" charset="utf-8"></script>
+</body>
+</html>
