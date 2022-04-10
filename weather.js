@@ -24,7 +24,7 @@ let weather = {
         document.getElementsByClassName("humidity")[0].innerHTML = weather.main.humidity;
         document.getElementsByClassName("temp_high")[0].innerHTML = weather.main.temp_max;
         document.getElementsByClassName("temp_low")[0].innerHTML = weather.main.temp_min;
-        document.getElementsByClassName("icon")[0].src = `http://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`;
+        document.getElementsByClassName("icon")[0].src = `https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`;
       });
   }
   
